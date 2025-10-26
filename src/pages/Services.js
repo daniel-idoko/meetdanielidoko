@@ -24,7 +24,7 @@ export default function ServiceComponent({ servicesRef }) {
       className="section"
       id="services"
       ref={servicesRef}
-      style={{ marginBottom: 0, paddingBottom: 0 }}
+      // style={{ marginBottom: 0, paddingBottom: 0 }}
     >
       <Typography variant="h4" className={classes.title}>
         My <strong>Services</strong>

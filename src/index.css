@@ -129,6 +129,11 @@ body {
     padding: 3rem 0;
   }
 }
+@media screen and (max-width: 600px) {
+  .mywork-responsive-tb-margin{
+    padding: 0rem 0 !important;
+  }
+}
 
 
 .responsive-mywork-arrow{

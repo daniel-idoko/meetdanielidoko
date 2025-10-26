@@ -14,7 +14,7 @@ export default function WorkIntro({ portfolioRef }) {
         alignItems: "flex-start",
         backgroundColor: "transparent",
       }}
-      className="section"
+      className="section mywork-responsive-tb-margin"
       id="portfolio"
       ref={portfolioRef}
     >

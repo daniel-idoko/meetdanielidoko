@@ -89,7 +89,11 @@ export default function Contact({ contactRef }) {
   };
 
   return (
-    <section className="section" id="contact" ref={contactRef} style={{marginTop: '0', paddingTop: '0'}}>
+    <section 
+      className="section" 
+      id="contact" ref={contactRef} 
+      // style={{marginTop: '0', paddingTop: '0'}}
+    >
       <Typography variant="h4" className={classes.title}>
         Get <strong>In Touch</strong>
       </Typography>
