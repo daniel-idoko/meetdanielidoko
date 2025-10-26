@@ -58,15 +58,16 @@ const useStyles = makeStyles((theme) => {
       justifyContent: 'space-evenly',
       flexWrap: "wrap",
       margin: "2rem auto",
+      marginBottom: "0",
       position: "absolute",
-      bottom: '1rem',
+      bottom: '0rem',
     },
     socialIcon: {
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
-      width: "60px",
-      height: "60px",
+      // width: "60px",
+      // height: "60px",
       // background: "#333",
       position: "relative",
       borderRadius: "50%",
@@ -98,7 +99,7 @@ const useStyles = makeStyles((theme) => {
       bottom: "2rem !important",
       right: "2rem !important",
       cursor: "pointer",
-      zIndex: "999999999",
+      // zIndex: "999999999",
 
       [theme.breakpoints.down("sm")]: {
         bottom: "1rem !important",
@@ -164,7 +165,7 @@ export default function Layout({ children }) {
   return (
     <main>
       <section ref={homeRef} id="home">
-        <section id="hero-section" style={{ backgroundImage: "", }}>
+        <section id="hero-section">
           <div className="hero-overlay">
             <NavBar isActive={isActive} />
             <div className="hero-content">

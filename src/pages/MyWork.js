@@ -68,7 +68,7 @@ export default function WorkIntro({ portfolioRef }) {
         }}
       >
         My projects, blogs, and documentation explore how modern web development,
-        system administration, and cybersecurity intersect — showcasing creativity,
+        system administration, and cybersecurity intersect, showcasing creativity,
         reliability, and precision in every build.
       </Typography>
 
