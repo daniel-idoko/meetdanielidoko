@@ -1,0 +1,13 @@
+@keyframes come-down {
+    from{
+        transform: translateY(-100%);
+    }
+    
+    to{
+        transform: translateY(0%);
+    }
+}
+nav.fixed-nav{
+    animation: come-down 0.3s;
+    
+}

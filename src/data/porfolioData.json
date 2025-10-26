@@ -1,0 +1,44 @@
+[
+    {
+        "id": 0,
+        "name": "Gray Fin Suit",
+        "category": "suit",
+        "img": "/suit1.jpg",
+        "displayStatus": true
+    },
+    {
+        "id": 1,
+        "name": "Gray Fin Suit",
+        "category": "suit",
+        "img": "/suit2.jpg",
+        "displayStatus": true
+    },
+    {
+        "id": 2,
+        "name": "Gray Fin Suit",
+        "category": "gawn",
+        "img": "/gawn1.jpg",
+        "displayStatus": true
+    },
+    {
+        "id": 3,
+        "name": "Gray Fin Suit",
+        "category": "gawn",
+        "img": "/gawn2.jpg",
+        "displayStatus": true
+    },
+    {
+        "id": 4,
+        "name": "Gray Fin Suit",
+        "category": "hoodie",
+        "img": "/2.jpg",
+        "displayStatus": true
+    },
+    {
+        "id": 5,
+        "name": "Gray Fin Suit",
+        "category": "swad",
+        "img": "/1.jpg",
+        "displayStatus": true
+    }
+]
