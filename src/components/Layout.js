@@ -99,7 +99,7 @@ const useStyles = makeStyles((theme) => {
       bottom: "2rem !important",
       right: "2rem !important",
       cursor: "pointer",
-      // zIndex: "999999999",
+      zIndex: "999999999",
 
       [theme.breakpoints.down("sm")]: {
         bottom: "1rem !important",
